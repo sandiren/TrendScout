@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TrendScout – Discover Niche Ideas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f2f4f8;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        input {
+            padding: 8px;
+            margin: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #0077cc;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        .card {
+            background: #fff;
+            padding: 16px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .tags span {
+            background: #e6f0ff;
+            padding: 4px 8px;
+            margin-right: 5px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        .source {
+            color: #666;
+            font-size: 13px;
+        }
+        .gpt {
+            background: #f9f9f9;
+            padding: 8px;
+            border-left: 4px solid #ccc;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🔍 TrendScout – Niche Opportunity Finder</h1>
+
+    <form method="POST">
+        <label>Keyword:</label>
+        <input type="text" name="keyword" placeholder="e.g. toys, vegan snacks" value="{{ keyword }}" required>
+
+        <label>Region:</label>
+        <input type="text" name="region" placeholder="e.g. US, IN, MU" value="{{ region }}" required>
+
+        <button type="submit">Discover Trends</button>
+    </form>
+
+    {% if error %}
+        <div class="error">⚠️ {{ error }}</div>
+    {% endif %}
+
+    {% if results %}
+        <h2>📊 Top Niche Opportunities</h2>
+        {% for item in results %}
+            <div class="card">
+                <h3>{{ item.query }}</h3>
+                <div><strong>Score:</strong> {{ item.score }} | <span class="source">{{ item.source }}</span></div>
+                <div class="tags">
+                    {% for tag in item.tags %}
+                        <span>#{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                <div class="gpt">{{ item.gpt }}</div>
+            </div>
+        {% endfor %}
+    {% endif %}
+
+</body>
+</html>

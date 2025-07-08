@@ -1,0 +1,6 @@
+flask
+pytrends
+pandas
+spacy
+openai
+python-dotenv
