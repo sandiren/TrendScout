@@ -1,0 +1,71 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"a7d5be5e-eb51-4647-a5d8-60e0e04f939b\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Merge.Settings\">\n    <option name=\"BRANCH\" value=\"origin/main\" />\n    <option name=\"OPTIONS\">\n      <set>\n        <option value=\"NO_VERIFY\" />\n      </set>\n    </option>\n  </component>\n  <component name=\"Git.Rebase.Settings\">\n    <option name=\"OPTIONS\">\n      <set>\n        <option value=\"ROOT\" />\n      </set>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {}\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/sandiren/TrendScout&quot;,\n    &quot;accountId&quot;: &quot;096025bd-d49b-4fa3-a80a-734c0fbadc4b&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 7\n}</component>\n  <component name=\"ProjectId\" id=\"2zVbVOJlVzhJ9bzRqxLDDidgIg8\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\n    &quot;Python.app.executor&quot;: &quot;Run&quot;,\n    &quot;Python.suggestions.executor&quot;: &quot;Run&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;\n  },\n  &quot;keyToStringList&quot;: {\n    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [\n      &quot;directory&quot;,\n      &quot;module&quot;,\n      &quot;repository&quot;\n    ]\n  }\n}</component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"a7d5be5e-eb51-4647-a5d8-60e0e04f939b\" name=\"Changes\" comment=\"\" />\n      <created>1751819211359</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1751819211359</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"initial\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1751996410068</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1751996410068</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"initial\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1751996503509</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1751996503509</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"initial\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1751996549750</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1751996549750</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"initial\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1751996582620</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1751996582620</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"initial\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1751996630690</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1751996630690</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"initial\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1751997514363</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1751997514363</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"initial\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1751998048983</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1751998048983</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"initial\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1751998071212</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1751998071212</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"9\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"initial\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"initial\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 0c8c8e8d48714ea0785d61214b55eac080a69ff3)
++++ b/.idea/workspace.xml	(date 1751999331375)
+@@ -26,7 +26,19 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PUSH_TAGS">
++      <GitPushTagMode>
++        <option name="argument" value="--tags" />
++        <option name="title" value="All" />
++      </GitPushTagMode>
++    </option>
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+   &quot;lastFilter&quot;: {}
+@@ -144,7 +156,39 @@
+       <option name="project" value="LOCAL" />
+       <updated>1751998071212</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="initial">
++      <option name="closed" value="true" />
++      <created>1751998670005</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1751998670005</updated>
++    </task>
++    <task id="LOCAL-00010" summary="initial">
++      <option name="closed" value="true" />
++      <created>1751998694939</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1751998694939</updated>
++    </task>
++    <task id="LOCAL-00011" summary="initial">
++      <option name="closed" value="true" />
++      <created>1751998727818</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1751998727818</updated>
++    </task>
++    <task id="LOCAL-00012" summary="initial">
++      <option name="closed" value="true" />
++      <created>1751998740014</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1751998740014</updated>
++    </task>
++    <option name="localTasksCounter" value="13" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
