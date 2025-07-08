@@ -18,13 +18,6 @@
       </set>
     </option>
   </component>
-  <component name="Git.Pull.Settings">
-    <option name="OPTIONS">
-      <set>
-        <option value="FF_ONLY" />
-      </set>
-    </option>
-  </component>
   <component name="Git.Rebase.Settings">
     <option name="OPTIONS">
       <set>
@@ -135,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751997514363</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initial">
+      <option name="closed" value="true" />
+      <created>1751998048983</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751998048983</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initial">
+      <option name="closed" value="true" />
+      <created>1751998071212</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751998071212</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
