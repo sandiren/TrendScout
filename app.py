@@ -1,5 +1,9 @@
+import logging
 from flask import Flask, render_template, request
 from trends import get_trends
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 
@@ -15,15 +19,15 @@ def index():
         keyword = request.form.get('keyword', '').strip()
         region = request.form.get('region', '').strip().upper()
 
-        print("Keyword:", keyword)
-        print("Region:", region)
+        logger.info('Keyword: %s', keyword)
+        logger.info('Region: %s', region)
 
         try:
             results = get_trends(keyword, region)
-            print("Results found:", len(results))
+            logger.info('Results found: %s', len(results))
         except Exception as e:
             error = str(e)
-            print("Error:", error)
+            logger.error('Error: %s', error)
 
     return render_template('index.html', results=results, keyword=keyword, region=region, error=error)
 

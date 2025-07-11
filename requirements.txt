@@ -4,3 +4,4 @@ pandas
 spacy
 openai
 python-dotenv
+en-core-web-sm==3.8.0
